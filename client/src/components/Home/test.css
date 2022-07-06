@@ -1,0 +1,61 @@
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0,0,0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+/* .card-blog {
+    margin-top: 30px;
+} */
+
+/* .fill-dark, .fill-light, .fill-primary, .fill-highlight1, .fill-highlight2, .fill-light-secondary, .fill-dark-secondary {
+    transition: background-color 1s;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+} */
+
+.card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%), 0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+}
+
+/* .card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+} */
+
+
+/* element.style {
+} */
+/* .card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+} */
+/* .card img {
+    width: 100%;
+    height: auto;
+} */
+/* img {
+    vertical-align: middle;
+} */
+
+/* .card .content {
+    padding: 15px 30px;
+} */
