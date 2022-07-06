@@ -1,0 +1,15 @@
+sudo:required
+
+services:
+      - docker
+
+befor_install:
+      - docker build -t projects/innerceylonEditing .
+
+script:
+      - docker run ./app npm test
+
+after_success:
+      -echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+
+      - docker push ./app
