@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engine":{
+    "node": "17.4.0",
+    "npm": "8.3.1"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "docker-build-client": "NPM_CONFIG_PRODUCTION=false cd ../client npm install && npm run build",
+    "docker-build-webapp": "concurrently \"npm run docker-build-client\" \"npm start\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "redis": "^4.1.1"
+  }
+}

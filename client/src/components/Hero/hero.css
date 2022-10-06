@@ -1,0 +1,81 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* .app{
+  position: relative;
+ 
+} */
+
+#fading{
+  position: relative; 
+  /* box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
+  
+  display: flex;
+  
+}
+
+
+
+
+
+@keyframes FadeInOut {
+    0% {opacity:0;}
+    25% {opacity:.5;}
+    50% {opacity:.75;}
+    100% {opacity:1;}
+  }
+
+  #fading img{
+   /* margin-left: 20px ; */
+    width: 100%;
+    height: 100vw;
+    /* max-height: 1000px;  */
+    
+    /* border-radius: 3%; */
+    /* margin: 20px 20px ; */
+   
+
+   
+    position:fixed;
+   
+   /* box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+
+    /* border: 2px solid rgb(90, 92, 91); */
+
+    left:0;
+
+
+    }
+
+    #fading img.two {
+        animation-name: FadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-direction: alternate;
+        }
+
+        @media (max-width: 768px){
+          #fading img{
+            width: 100%;
+            border: 2px solid rgb(90, 92, 91);
+            border-style:ridge;
+            }
+          }
+
+          @media (max-width: 390px){
+            #fading img{
+              width: 310px;
+              height: 280px;
+              
+              
+              border: 2px solid rgb(90, 92, 91);
+              border-style:ridge;
+              }
+            }
+
+      

@@ -1,0 +1,52 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&display=swap"); */
+
+
+.name {
+    margin-top: 0;
+    font-size: 15px;
+    color: #4C75A0;
+
+    text-transform: uppercase;
+    font-weight: 900;
+    /* font-style: italic; */
+    /* font-family: 'Lora', serif; */
+
+  /* margin-right: 40px; */
+
+    /* text-align: center; */
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 3px #c0b4ba, 0 0 70px white;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px white, 0 0 40px white, 0 0 50px #8b8488, 0 0 60px #a79da2, 0 0 3px white, 0 0 80px white;
+    }
+  }
+
+
+.createdAt{
+  text-align: right;
+  margin-right: 40px;
+  /* font-family: 'Lora', serif; */
+  
+     font-size: 10px;
+    color: #4C75A0;
+    
+
+    
+     }
+
+     .message {
+
+    font-family: 'Lora', serif;
+
+       
+    color: #4C75A0;
+    
+
+     }

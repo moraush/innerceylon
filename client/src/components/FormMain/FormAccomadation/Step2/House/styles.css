@@ -1,0 +1,33 @@
+.flex-inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.margin{
+    margin: 3vh 7vw;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* font-size: 30px; */
+    /* text-align: right; */
+    /* margin-left: 0; */
+    /* right:  auto 0; */
+    /* margin: 20px; */
+    /* align-items: center; */
+
+}
+.bg {
+    background-color: thistle;
+    margin: 2px 0;
+    height: 9vh;
+   
+    
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-evenly; */
+}
+.left-margin{
+    margin-right: 5vw;
+
+}
